@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Featured Posts Widget
- * Plugin URI: http://olympusthemes.com/widgets
+ * Plugin Name: Olympus Featured Posts Widget
+ * Plugin URI: https://wordpress.org/plugins/olympus-featured-posts-widget
  * Description: Add a selection of your posts to the sidebar
- * Author: Olympus Themes
+ * Author: DannyCooper
  * Author URI: http://olympusthemes.com
  * Version: 1.0.0
  * Text Domain: olympus-featured-posts-widget
@@ -15,12 +15,12 @@
 /**
  * Enqueue the plugin stylesheet
  */
-function olympus_featured_posts_styles() {
+function olympus_featured_posts_widget_styles() {
 	if ( ! is_admin() ) {
 		wp_enqueue_style( 'olympus-featured-posts-widget', plugin_dir_url( __FILE__ ) . 'css/style.css' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'olympus_featured_posts_styles', 11 );
+add_action( 'wp_enqueue_scripts', 'olympus_featured_posts_widget_styles', 11 );
 
 /**
  * Load plugin textdomain.

@@ -1,4 +1,4 @@
-=== Olympus Widgets ===
+=== Olympus Featured Post Widget ===
 Contributors: DannyCooper
 Tags: featured posts widget, featured posts, popular posts widget, popular posts, widget
 Author URI: http://olympusthemes.com/
